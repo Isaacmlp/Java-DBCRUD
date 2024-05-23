@@ -1,8 +1,8 @@
 package Model;
 
-public class Model {
+public class Modelo {
 
-    public Model () {
+    public Modelo() {
 
     }
 

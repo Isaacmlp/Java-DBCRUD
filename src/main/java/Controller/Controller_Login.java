@@ -1,36 +1,32 @@
 package Controller;
+import Model.Modelo;
+import View.Vista;
 import View.Login;
-import Model.Model;
-import View.View;
-
-import java.awt.*;
 
 public class Controller_Login {
-    View login;
-    Model modelo;
+    Login login;
+    Modelo modelo;
 
-    public Controller_Login(Model modelo, View login) {
+    public Controller_Login(Modelo modelo, Login login) {
         this.modelo = modelo;
         this.login = login;
     }
 
-    public View getLogin() {
+    public Login getLogin() {
         return login;
     }
 
-    public void setLogin(View login) {
+    public void setLogin(Login login) {
         this.login = login;
     }
 
-    public Model getModelo() {
+    public Modelo getModelo() {
         return modelo;
     }
 
-    public void setModelo(Model modelo) {
+    public void setModelo(Modelo modelo) {
         this.modelo = modelo;
     }
-
-
 
 }
 
