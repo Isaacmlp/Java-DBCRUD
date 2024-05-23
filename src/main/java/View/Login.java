@@ -4,11 +4,12 @@ import javax.swing.*;
 
 public class Login extends JFrame {
     JPanel panel = new JPanel();
-    JLabel lbl = new JLabel("Usuario");
-    JLabel lbl2 = new JLabel("Clave");
+    JLabel lbl = new JLabel("Usuario:");
+    JLabel lbl2 = new JLabel("Clave:");
+    JLabel lbl3 = new JLabel("Iniciar Sesion");
     JTextField txt = new JTextField();
     JPasswordField txt2 = new JPasswordField();
-    JButton btn = new JButton("Limpiar");
+    JButton btn = new JButton("Registrarse");
     JButton btn2 = new JButton("Enviar");
 
     public Login () {
@@ -28,6 +29,7 @@ public class Login extends JFrame {
     void Contenido () {
         panel.setLayout(null);
 
+        lbl3.setBounds(100,10,100,50);
         lbl.setBounds(50,50,100,50);
         lbl2.setBounds(50,100,100,50);
 
@@ -39,6 +41,7 @@ public class Login extends JFrame {
 
         panel.add(lbl);
         panel.add(lbl2);
+        panel.add(lbl3);
         panel.add(txt);
         panel.add(txt2);
         panel.add(btn);
