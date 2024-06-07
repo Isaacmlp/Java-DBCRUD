@@ -1,33 +1,30 @@
 package View;
 
+import Controller.Controller_Login;
+
 import javax.swing.*;
 
 public class Login extends JFrame {
-    JPanel panel = new JPanel();
-    JLabel lbl = new JLabel("Usuario:");
-    JLabel lbl2 = new JLabel("Clave:");
-    JLabel lbl3 = new JLabel("Iniciar Sesion");
-    JTextField txt = new JTextField();
-    JPasswordField txt2 = new JPasswordField();
-    JButton btn = new JButton("Registrarse");
-    JButton btn2 = new JButton("Enviar");
+    public JPanel panel = new JPanel();
+    public JLabel lbl = new JLabel("Usuario:");
+    public JLabel lbl2 = new JLabel("Clave:");
+    public JLabel lbl3 = new JLabel("Iniciar Sesion");
+    public JTextField txt = new JTextField();
+    public JPasswordField txt2 = new JPasswordField();
+    public JButton btn = new JButton("Registrarse");
+    public JButton btn2 = new JButton("Enviar");
 
     public Login () {
         Contenido();
-        Iniciar();
+
     }
 
-    void Iniciar () {
-        setTitle("Login");
-        setSize(300,300);
-        setResizable(false);
-        setLocationRelativeTo(null);
-        setDefaultCloseOperation(EXIT_ON_CLOSE);
-        setVisible(true);
-    }
+
 
     void Contenido () {
         panel.setLayout(null);
+
+
 
         lbl3.setBounds(100,10,100,50);
         lbl.setBounds(50,50,100,50);
@@ -54,5 +51,15 @@ public class Login extends JFrame {
         lbl.setText("");
         lbl2.setText("");
     }
+
+    public void Alert (String texto) {
+        JOptionPane.showMessageDialog(null,texto,"INFORMATION_MESSAGE",JOptionPane.INFORMATION_MESSAGE);
+    }
+
+    public JButton getbtnenviar () {
+        return btn2;
+    }
+
+
 
 }

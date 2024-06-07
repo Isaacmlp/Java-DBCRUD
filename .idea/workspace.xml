@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4944f6cb-c458-4b2e-8b1b-61869a986a75" name="Changes" comment="23/05/2024 &quot;Javier loco ayuda&quot;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/Controller_vista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Controller/Controller_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/Controller_Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Modelo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/View/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/View/Vista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/ConexionDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/ConexionDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Modelo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Modelo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/View/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/View/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/View/Vista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/View/Vista.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,21 +29,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Isaacmlp"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Isaacmlp&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Isaacmlp/Java-DBCRUD.git",
-    "accountId": "e6a8bea9-28b4-4a66-bff2-6b3a30fdc091"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Isaacmlp/Java-DBCRUD.git&quot;,
+    &quot;accountId&quot;: &quot;e6a8bea9-28b4-4a66-bff2-6b3a30fdc091&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2gsItVyrpRVfe4oH7rxCDEs1NFg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -55,7 +59,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/Isaac León/IdeaProjects/JavaDB/src/main/java/org/example/Main.java"
+    "last_opened_file_path": "C:/Users/Isaac León/IdeaProjects/Basic-Calculator-MVC-main",
+    "onboarding.tips.debug.path": "C:/Users/Isaac León/IdeaProjects/JavaDB/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
